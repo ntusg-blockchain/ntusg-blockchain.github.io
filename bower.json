@@ -1,0 +1,22 @@
+{
+  "name": "bns-website",
+  "description": "The [Website](https://ntusg-blockchain.github.io) for [Blockchain at NTU Singapore](https://facebook.com/NTUBlockchain)",
+  "main": "index.js",
+  "authors": [
+    "Blockchain@NTUsg Dev"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ntusg-blockchain/ntusg-blockchain.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "devicon": "*",
+    "basecoat": "git@github.com:github/basecoat.git#^0.2.1-alpha",
+    "components-font-awesome": "^5.0.6"
+  }
+}
