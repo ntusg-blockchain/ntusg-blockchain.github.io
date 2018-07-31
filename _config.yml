@@ -1,0 +1,33 @@
+title: Blockchain at NTUsg
+email: blockchain.ntusg@gmail.com
+description: 'Blockchain@NTU is a student initiated club dedicated to foster a vibrant blockchain community in NTU Singapore and beyond through education, research and development and consulting. '
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  ntusg-blockchain
+future: true
+excerpt_separator: '---'
+timezone: Asia/Singapore
+# Build settings
+plugins:
+    - jekyll-redirect-from
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-feed
+    - jemoji
+sass:
+    style: compressed
+exclude:
+    - node_modules
+    - README.md
+    - LICENSE.md
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - Gruntfile.js
+    - package.json
+    - script
+    - spec
+    - vendor
+include:
+    - _pages
