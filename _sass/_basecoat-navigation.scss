@@ -1,5 +1,118 @@
+// Site Header original basecoat
+.site-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid $gray-1;
 
-// Site Header
+  @media (min-width: 700px) {
+    text-align: left;
+  }
+}
+
+.site-header-logo {
+  font-size: 22px;
+
+  .mega-octicon {
+    padding-right: 5px;
+  }
+
+  @media (min-width: 700px) {
+    float: left;
+  }
+
+  .logo {
+    width: auto;
+    height: 18px;
+    overflow: visible !important; // overrides for descender characters to not get cut off by SVG frame.
+
+    @include breakpoint(sm) {
+      height: 22px;
+      opacity: 0.9;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    path,
+    ellipse {
+      fill: $gray-8;
+    }
+  }
+}
+
+.site-header-nav {
+  margin-top: 20px;
+
+  @media (min-width: 700px) {
+    float: right;
+    margin-top: 7px;
+  }
+}
+
+.site-header-nav-item {
+  display: inline-block;
+  color: #555;
+
+  &:hover {
+    color: #333;
+    text-decoration: none;
+  }
+
+  &.active {
+    color: #333;
+  }
+
+  + .site-header-nav-item {
+    margin-left: 20px;
+  }
+}
+
+
+.menu {
+  margin-top: $spacer5;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: $white;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.menu-item {
+  position: relative;
+  display: block;
+  padding: 12px 15px;
+  border-bottom: 1px solid $border-color;
+
+  &:first-child {
+    border-top: 0;
+    border-top-right-radius: $border-radius;
+    border-top-left-radius: $border-radius;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+    border-bottom-right-radius:  $border-radius;
+    border-bottom-left-radius:  $border-radius;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background-color: $gray-0;
+  }
+
+  &.selected {
+    font-weight: bold;
+    color: $gray-7;
+    cursor: default;
+    background-color: $white;
+  }
+}
+
+// Site Header extend -----------------------------------
 
 .site-header {
   color: $jumbo-color;
@@ -16,7 +129,8 @@
 }
 
 .site-header a {
-  color: $jumbo-color;
+  color: inherit;
+  transition: all 0.3s;
   &.active,
   &:hover {
     color: $jumbo-color-strong;
@@ -25,29 +139,42 @@
     color: $jumbo-color-subtle;
   }
 }
-// .site-header-nav-item :hover{
-//     border-bottom-color: $jumbo-color-strong;
-// }
-// Electron icon
-.site-header-icon {
-  width: 48px;
-  height: 48px;
-  vertical-align: middle;
-  margin-top: -4px; // visually align
-  margin-right: 0.4em;
 
-  .svg-fill {
-    fill: currentColor;
+.site-header-nav {
+  margin-top: 0;
+  min-height: 30px;
+  line-height: 30px;
+
+  @media (max-width: 699px) {
+    line-height: 2.3;
   }
-  .svg-stroke {
-    stroke: currentColor;
-    stroke-width: 1.2;
-    stroke-linecap: round;
+
+  .mega-octicon {
+    min-width: 32px; // stops jumping of the nav when loading the page
   }
 }
 
-.site-header-nav .mega-octicon {
-  min-width: 32px; // stops jumping of the nav when loading the page
+.site-header-nav-item {
+  font-size: 14px;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+
+  &.active, &:active, &:hover {
+    border-bottom-color: $jumbo-color-strong;
+  }
+
+  &.bordered {
+    border: 1px solid $jumbo-color-strong;
+    border-radius: 3px;
+    padding: 0 7px;
+    opacity: 0.7;
+    font-size: 12px;
+    line-height: 2;
+  }
+
+  &.octicon {
+    border: none !important;
+  }
 }
 
 // keep it centered a bit longer
@@ -60,3 +187,9 @@
 }
 .site-header-logo { @include breakpoint(lg) { float: left; } }
 .site-header-nav  { @include breakpoint(lg) { float: right; } }
+
+// swap logo and nav for right-to-left languages
+html[dir="rtl"] {
+  .site-header-logo { @include breakpoint(lg) { float: right; } }
+  .site-header-nav  { @include breakpoint(lg) { float: left; } }
+}

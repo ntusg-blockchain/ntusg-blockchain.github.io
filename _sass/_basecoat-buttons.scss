@@ -1,9 +1,19 @@
-
-.btn-outline-themed {
-  @include btn-outline-theme($theme-color);
+.btn-fancy{
+  display: block;
+  font-family: CircularStd;
+  font-weight: 900;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 60px;
+  width: 173px;
+  height: 50px;
 }
 
-.btn-outline-themed:hover,
-.btn-outline-themed:active {
-  background-image: none;
+.btn-fancy-blue{
+  background-color: $main-link-color;
+  border: 1px solid $main-link-color;
+  color: #fff;
 }

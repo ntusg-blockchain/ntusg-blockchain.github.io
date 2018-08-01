@@ -4,16 +4,17 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: $main-bg-color;
+  font-family: $body-font;
   font-size: 14px;
-  font-family: BrandonText;
-  font-weight: bold;
   @include breakpoint(sm) {
     font-size: $body-font-size;
   }
+  margin: 0;
 }
 
 a {
   color: $main-link-color;  // override Primer
+  text-decoration: none;
 }
 
 hr {

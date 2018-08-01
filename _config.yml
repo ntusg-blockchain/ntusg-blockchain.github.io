@@ -10,24 +10,28 @@ excerpt_separator: '---'
 timezone: Asia/Singapore
 # Build settings
 plugins:
-    - jekyll-redirect-from
-    - jekyll-sitemap
-    - jekyll-seo-tag
-    - jekyll-feed
-    - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
 sass:
-    style: compressed
-exclude:
+  load_paths:
+    - _sass
+    - css
     - node_modules
-    - README.md
-    - LICENSE.md
-    - CNAME
-    - Gemfile
-    - Gemfile.lock
-    - Gruntfile.js
-    - package.json
-    - script
-    - spec
-    - vendor
+  style: compressed
+exclude:
+  - node_modules
+  - README.md
+  - LICENSE.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - package.json
+  - script
+  - spec
+  - vendor
 include:
-    - _pages
+  - _pages
