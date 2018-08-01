@@ -4,7 +4,8 @@
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 30px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: normal;
   line-height: 32px; // match height of .footer-mark
   text-align: center;
   border-top: 1px solid $gray-1;
@@ -26,7 +27,7 @@
 
 .footer-nav {
   @include breakpoint(md) {
-    float: right;
+    float: center;
   }
 }
 
@@ -67,8 +68,10 @@
   @include breakpoint(md) {
     float: center;
   }
-  .octicon-logo-github {
-    position: relative;
-    bottom: -2px; // visually center
-  }
+}
+
+.footer-nav-item.icon {
+  text-decoration: none !important;
+  border: none !important;
+  font-size: 130%;
 }
