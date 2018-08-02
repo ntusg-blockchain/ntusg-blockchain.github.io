@@ -3,7 +3,6 @@
 ---
 @import "brandon-text-font";
 @import "variables";
-
 // @import "primer-layout/index.scss"; // NOT responsive
 @import "primer-base/index.scss";
 @import "primer-support/index.scss";
@@ -15,16 +14,13 @@
 
 // Electron -----------------------------------
 
-
-@import "base";
-@import "highlight"; // Syntax highlighting
-
 // Basecoat overrides
 @import "mixins/breakpoints.scss";
 @import "mixins/clearfix.scss";
 @import "mixins/grid-framework.scss";
 @import "mixins/grid.scss";
 @import "basecoat-grid";
+// @import "basecoat-type";
 @import "basecoat-code";
 @import "basecoat-buttons";
 @import "basecoat-footer";
@@ -35,5 +31,7 @@
 @import "basecoat-tables";
 @import "basecoat-utility";
 
+@import "base";
+@import "highlight"; // Syntax highlighting
 // Pages
 @import "home";
