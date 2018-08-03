@@ -77,7 +77,7 @@ layout: default
         <h3 class="gentle-link-color">Consulting</h3>
         {{site.data.bns.consulting_intro}}
         <br>
-        <a href="{{site.baseurl}}/consulting/" class="btn-fancy btn-fancy-blue-reverse my-5">Learn More</a>
+        <a href="{{site.baseurl}}/consulting/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
       </div>
     </div>
   </div>
@@ -95,7 +95,7 @@ layout: default
           <a href="{{event.fb_url}}" class="event-fb-link">
             <div class="event-container">
               <img class="event-img" src="{{site.baseurl}}/images/home/event-{{event.index}}.jpg" alt="event-photo">
-              <div class="event-overlay pt-3 pl-4">
+              <div class="event-overlay pt-3 pl-4 pr-1">
                 <h4>{{event.name}}</h4>
                 <p>{{event.date}}</p>
                 <p>{{event.description}}</p>
@@ -110,8 +110,64 @@ layout: default
   </div>
 </section>
 
-<section class="page-section page-section-spacious" id="contact">
-  <div class="">
+<section class="page-section page-section-spacious bg-shade" id="contact">
+  <div class="text-center">
+    <h2>Contact Us</h2>
+  </div>
+  <div class="container-wide">
+    <div class="row">
+      <div class="col-12 col-md-6 px-6 py-4">
+        {{site.data.bns.contact.notice}}
+      </div>
+      <div class="col-12 col-md-6 px-6 py-4">
+        <!-- TODO: add form validation -->
+        <!-- TODO: add submit button js -->
+        <form>
+          <dl class="form-group">
+            <dt><label for="name">Name:</label></dt>
+            <dd><input class="form-control" type="text" placeholder="e.g. Vitalik Kardashian" id="name"></dd>
+          </dl>
 
+          <dl class="form-group">
+            <dt><label for="name">Email:</label></dt>
+            <dd><input class="form-control" type="text" placeholder="e.g. KVitalik666@e.ntu.edu.sg" id="name"></dd>
+          </dl>
+
+          <dl class="form-group">
+            <dt><label for="topic">Topic:</label></dt>
+            <dd>
+              <select class="form-select" id="topic">
+                <option>Membership Recruitment</option>
+                <option>Education</option>
+                <option>Research & Development</option>
+                <option>Business Development</option>
+                <option>Sponsor</option>
+                <option>Events</option>
+                <option>General Feedback</option>
+                <option>Others</option>
+              </select>
+            </dd>
+          </dl>
+
+          <dl class="form-group">
+            <dt><label for="mail-content">Content</label></dt>
+            <dd>
+              <textarea class="form-control" id="mail-content" placeholder="Your email content here."></textarea>
+            </dd>
+          </dl>
+
+          <a href="#" class="btn-fancy btn-fancy-blue-reverse no-underline my-3">Submit</a>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="container-narrow text-center">
+      <h2>Join Us on Slack <i class="fab fa-slack"></i></h2>
+      <form class="mt-5">
+        <input class="form-control input-lg" type="text" placeholder="Your email address" aria-label="Large input">
+        <br>
+        <a href="#" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Invite Me</a>
+      </form>
+    </div>
   </div>
 </section>

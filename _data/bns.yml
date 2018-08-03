@@ -30,3 +30,12 @@ events:
     description: 'Last session in "Demystifying Blockchain" workshop series, walked through coding paradigm of product incoporating smart contract systems and live coded hello-world Solidity contract with brief intro to Truffle, Ganache etc.'
     url: 'https://bit.ly/blockchain-ntusg-103'
     fb_url: ''
+
+contact:
+  notice: 'We welcome any questions regarding our projects, membership recruitment, our free blockchain materials, our workshop information and anything but scam, spam and ICO hard-sell.
+  <br>
+  <br>
+  We love to hear your feedback, your ideas and maybe your stories.
+  <br>
+  <br>
+  Please give us at most a week to get back to you, meanwhile if it is something urgent, please indicate so at the beginning of your message. :)'
