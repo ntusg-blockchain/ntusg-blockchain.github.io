@@ -25,35 +25,59 @@ layout: default
 </div>
 
 <section class="page-section page-section-spacious" id="bns-intro">
-  <div class="container-wide col-8">
-    <div class="container-narrow text-center pb-8">
+  <div class="container-wide">
+    <div class="container-narrow text-center">
       <h2>Our Mission</h2>
       <p>{{site.data.bns.mission}}</p>
     </div>
-
+    <hr>
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 pb-4">
         <div class="block-img px-2 py-2 box-shadow-large">
           <img src="{{site.baseurl}}/images/home/past-event.jpg" alt="past-event">
         </div>
-
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6">
         <h2>Who Are We</h2>
         <p>We're a student-initiated community at NTU Singapore. TODO: add more intro</p>
+        <br>
         <a href="{{site.baseurl}}/team" class="btn-fancy btn-fancy-blue-reverse no-underline mt-5">Meet the Team</a>
       </div>
     </div>
-
-
   </div>
 </section>
 
 <section class="page-section page-section-spacious bg-shade" id="departments">
   <div class="container-narrow">
-    <div class="row">
-      <div class="">
-
+    <div class="row text-center">
+      <div class="col-12">
+        <h2>What We Do</h2>
+        <p><b><i>{{site.data.bns.principles}}</i></b></p>
+      </div>
+    </div>
+  </div>
+  <div class="container-wide pt-8">
+    <div class="row text-center">
+      <div class="col-12 col-md-4 px-5">
+        <i class="fas fa-4x fa-graduation-cap circle-icon"></i>
+        <h3 class="gentle-link-color">Education</h3>
+        {{site.data.bns.education_intro}}
+        <br>
+        <a href="{{site.baseurl}}/learn/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
+      </div>
+      <div class="col-12 col-md-4 px-5">
+        <i class="fas fa-4x fa-laptop-code circle-icon"></i>
+        <h3 class="gentle-link-color">R&D</h3>
+        {{site.data.bns.research_dev_intro}}
+        <br>
+        <a href="{{site.baseurl}}/build/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
+      </div>
+      <div class="col-12 col-md-4 px-5">
+        <i class="fas fa-4x fa-flask circle-icon"></i>
+        <h3 class="gentle-link-color">Consulting</h3>
+        {{site.data.bns.consulting_intro}}
+        <br>
+        <a href="{{site.baseurl}}/consulting/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
       </div>
     </div>
   </div>
