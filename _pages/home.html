@@ -77,7 +77,7 @@ layout: default
         <h3 class="gentle-link-color">Consulting</h3>
         {{site.data.bns.consulting_intro}}
         <br>
-        <a href="{{site.baseurl}}/consulting/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
+        <a href="{{site.baseurl}}/consulting/" class="btn-fancy btn-fancy-blue-reverse my-5">Learn More</a>
       </div>
     </div>
   </div>
@@ -89,28 +89,20 @@ layout: default
       <h2>Events & Workshops</h2>
     </div>
     <div class="event-slick py-6">
-      <div class="event-container">
-        <img class="event-img" src="{{site.baseurl}}/images/home/event-1.jpg" alt="">
-        <div class="event-overlay">
-          <div class="event-overlay-text">
-            testing
+      {% for event in site.data.bns.events %}
+        <!-- Having py-5 to display box shawdow -->
+        <div class="py-5">
+          <div class="event-container">
+            <img class="event-img" src="{{site.baseurl}}/images/home/event-{{event.index}}.jpg" alt="event-photo">
+            <div class="event-overlay pt-3 pl-4">
+              <h4>{{event.name}}</h4>
+              <p>{{event.date}}</p>
+              <p>{{event.description}}</p>
+              <a href="{{event.url}}" class="btn btn-transparent" target="_blank">Learn more</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="event-container">
-        <img class="event-img" src="{{site.baseurl}}/images/home/event-2.jpg" alt="">
-        <div class="event-overlay">
-          <div class="event-overlay-text">
-            testing
-          </div>
-        </div>
-      </div>
-      <div class="">
-        3
-      </div>
-      <div class="">
-        4
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>

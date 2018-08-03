@@ -46,36 +46,23 @@
 }
 .event-container {
   position: relative;
-  width: 100%;
 }
 .event-overlay{
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
   background-color: $main-link-color;
   opacity: 0.9;
   overflow: hidden;
   width: 100%;
-  height: 3.2em;
+  height: 5em;
   transition: .5s ease;
+  color: white;
 }
-
 .event-container:hover .event-overlay {
   height: 75%;
 }
 
-.event-overlay-text{
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 // slick navigation arrows style
 .slick-prev:before, .slick-next:before {
   color:$main-link-color !important;

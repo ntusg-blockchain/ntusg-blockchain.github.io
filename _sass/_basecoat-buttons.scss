@@ -55,9 +55,17 @@
   color: $white;
   background: none;
   border-color: $white;
+  font-family: CircularStd;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 60px;
+  max-width: 173px;
+  max-height: 50px;
 
   &:hover {
-    background: rgba(0, 0, 0, 0.2);
+    background: $white;
+    color: $main-link-color;
     border-color: $white;
   }
 
@@ -101,6 +109,7 @@
   max-width: 173px;
   max-height: 50px;
   line-height: 50px;
+  text-decoration: none;
 }
 
 .btn-fancy-blue{

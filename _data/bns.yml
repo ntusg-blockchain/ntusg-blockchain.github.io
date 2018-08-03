@@ -7,3 +7,23 @@ education_intro: 'We carefully designed and teach "Blockchain Fundamentals" cour
 research_dev_intro: 'We investigate protocols and designs steming from academia and industries, meanwhile we propose our analysis results, improvisations and our own noval ideas. On top of theoretical work, we implement open-sourced libraries and build applications using state-of-the-art framework and development tools.'
 
 consulting_intro: 'We formulate "solution teams" to tackle specific problems in the community or of a client. Business development and market insights will shine on their merits for adding values to creative business models or solving an existing painpoint.'
+
+events:
+  - 1:
+    index: 1
+    name: 'Cryptocurrency Basic, Bitcoin and Altcoin'
+    date: 'March 14, 2017'
+    description: 'First session in "Demystifying Blockchain" workshop series, introduced crypto basics, data structure, distributed consensus and specs of bitcoin protocols.'
+    url: 'https://bit.ly/blockchain-ntusg-slide1'
+  - 2:
+    index: 2
+    name: 'Ethereum, Cryptoeconomics and Applications'
+    date: 'March 28, 2017'
+    description: 'Second session in "Demystifying Blockchain" workshop series, covered Ethereum Virtual Machine, Gas, Smart Contract, Permissioned v.s. Permissionless blockchain and blockchain trilemma.'
+    url: 'https://bit.ly/blockchain-ntusg-slide2'
+  - 3:
+    index: 3
+    name: 'Smart Contract Coding'
+    date: 'April 11, 2017'
+    description: 'Last session in "Demystifying Blockchain" workshop series, walked through coding paradigm of product incoporating smart contract systems and live coded hello-world Solidity contract with brief intro to Truffle, Ganache etc.'
+    url: 'https://bit.ly/blockchain-ntusg-103'
