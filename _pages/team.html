@@ -1,0 +1,46 @@
+---
+title: Team -- Blockchain@NTU
+permalink: /team/
+layout: default
+---
+<section class="page-section page-section-spacious bg-shade" id="team-member">
+  <div class="container-wide text-center">
+    <h2>The Team</h2>
+    <p class="lead mb-3">
+      A dedicated team of students from <a href="https://www.ntu.edu.sg" target="_blank">Nanyang Technological University</a> are pushing things forward.
+    </p>
+    <hr>
+    <div class="row">
+      {% for member in site.data.team.members %}
+        <div class="col-12 col-md-4">
+          <div class="team-member-card">
+            <div class="team-member-photo" style="background-image:url({{site.baseurl}}/images/team/member-{{member.index}}.jpg)"></div>
+            <div class="team-member-contacts mb-3">
+              {% for link in member.links %}
+                {% if link.twitter %}
+                  <a href="{{link.twitter.url}}" target="_blank"><i class="fab fa-twitter"></i> </a>
+                {% endif %}
+                {% if link.github %}
+                  <a href="{{link.github.url}}" target="_blank"><i class="fab fa-github"></i> </a>
+                {% endif %}
+                {% if link.website %}
+                  <a href="{{link.website.url}}" target="_blank"><i class="fas fa-link"></i> </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+            <p>{{member.bio}}</p>
+            <div class="team-member-title">
+              <h3 class="team-member-name">
+                {{member.name}}
+              </h3>
+              <h4 class="team-member-position">
+                {{member.title}}
+              </h4>
+            </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

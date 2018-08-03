@@ -1,0 +1,62 @@
+.team-member-card {
+  width: 100%;
+  padding: 40px 30px 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 538px;
+  position: relative;
+}
+
+.team-member-card .team-member-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  overflow: hidden;
+  margin: 0 auto 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(10%);
+}
+
+.team-member-contact {
+  text-align: center;
+}
+
+.team-member-card .team-member-contacts a {
+  margin-right: 11px;
+  color: $main-color-subtle;
+  text-decoration: none;
+}
+
+.team-member-card .team-member-contacts a:hover {
+  margin-right: 11px;
+  color: $main-link-color;
+}
+
+.team-member-title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 460px;
+}
+
+.team-member-card h3.team-member-name {
+  color: #242526;
+  font-family: CircularStd;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 13px;
+}
+.team-member-card h4.team-member-position {
+    color: #747474;
+    font-family: 'Playfair Display',serif;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+}
