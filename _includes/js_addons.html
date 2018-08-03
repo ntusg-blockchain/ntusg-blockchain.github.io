@@ -3,7 +3,6 @@
 
 <!-- Slick Carousel -->
 <script type="text/javascript" src="{{site.baseurl}}/lib/slick-1.8.1/slick/slick.min.js"></script>
-<!-- TODO: make it responsive -->
 <script>
   $(document).ready(function(){
     $('.event-slick').slick({
@@ -13,7 +12,16 @@
       speed: 300,
       slidesToShow: 2,
       slidesToScroll: 1,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     });
 
     // Add smooth scrolling to all links

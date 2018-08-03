@@ -15,15 +15,18 @@ events:
     date: 'March 14, 2017'
     description: 'First session in "Demystifying Blockchain" workshop series, introduced crypto basics, data structure, distributed consensus and specs of bitcoin protocols.'
     url: 'https://bit.ly/blockchain-ntusg-slide1'
+    fb_url: 'https://www.facebook.com/events/1643858522356906/'
   - 2:
     index: 2
     name: 'Ethereum, Cryptoeconomics and Applications'
     date: 'March 28, 2017'
     description: 'Second session in "Demystifying Blockchain" workshop series, covered Ethereum Virtual Machine, Gas, Smart Contract, Permissioned v.s. Permissionless blockchain and blockchain trilemma.'
     url: 'https://bit.ly/blockchain-ntusg-slide2'
+    fb_url: 'https://www.facebook.com/events/1671808579567498/'
   - 3:
     index: 3
     name: 'Smart Contract Coding'
     date: 'April 11, 2017'
     description: 'Last session in "Demystifying Blockchain" workshop series, walked through coding paradigm of product incoporating smart contract systems and live coded hello-world Solidity contract with brief intro to Truffle, Ganache etc.'
     url: 'https://bit.ly/blockchain-ntusg-103'
+    fb_url: ''
