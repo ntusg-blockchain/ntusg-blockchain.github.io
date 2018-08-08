@@ -10,8 +10,22 @@
 
     {% include footer.html %}
     {% include anchor_links.html %}
-    <!-- TODO: add conditional insert of different js_addons for different pages -->
-    {% include js_addons.html %}
+    <!-- Loading global js file -->
+    {% include js_addons_global.html %}
+    <!-- Loading custom js lib -->
+    {% if page.custom_js_lib %}
+      {% for js_lib in page.custom_js_lib %}
+        <script type="module" src="{{js_lib}}"></script>
+      {% endfor %}
+    {% endif %}
+    <!-- Loading custom js file specific to each page -->
+    {% if page.custom_js %}
+      {% for js_file in page.custom_js %}
+        <script type="text/javascript" src="/js/{{js_file}}"></script>
+      {% endfor %}
+    {% endif %}
+
+
   </body>
 
 </html>

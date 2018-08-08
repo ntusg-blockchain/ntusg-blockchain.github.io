@@ -9,7 +9,14 @@
   <link rel="stylesheet" href="{{site.baseurl}}/lib/fontawesome-free-5.2.0/css/all.min.css">
   <link rel="stylesheet" href="{{site.baseurl}}/lib/slick-1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="{{site.baseurl}}/lib/slick-1.8.1/slick/slick-theme.css" />
-  
+
+  <!-- Loading page specific css file -->
+  {% if page.custom_css %}
+    {% for css_file in page.custom_js_lib %}
+      <script type="stylesheet" src="{{css_file}}"></script>
+    {% endfor %}
+  {% endif %}
+
   {% seo %}
   {% feed_meta %}
   <script type="text/javascript">

@@ -7,12 +7,12 @@
 
     <nav class="site-header-nav">
       {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
-      <a class="site-header-nav-item {% if first_segment == '#events' %}active{% endif %}" href="{{ site.url }}#events">{{ site.data.locale.nav.events }}</a>
+      <a class="site-header-nav-item {% if first_segment == '#events' %}active{% endif %}" href="{{ site.url }}/#events">{{ site.data.locale.nav.events }}</a>
       <a class="site-header-nav-item {% if first_segment == 'learn' %}active{% endif %}" href="{{ site.baseurl }}/learn/">{{ site.data.locale.nav.education }}</a>
       <a class="site-header-nav-item {% if first_segment == 'solution' %}active{% endif %}" href="{{ site.baseurl }}/solution/">{{ site.data.locale.nav.consulting }}</a>
       <a class="site-header-nav-item {% if first_segment == 'build' %}active{% endif %}" href="{{ site.baseurl }}/build/">{{ site.data.locale.nav.dev }}</a>
       <a class="site-header-nav-item {% if first_segment == 'team' %}active{% endif %}" href="{{ site.baseurl }}/team/">{{ site.data.locale.nav.team }}</a>
-      <a class="site-header-nav-item {% if first_segment == 'contact' %}active{% endif %}" href="{{ site.url }}#contact">{{ site.data.locale.nav.contact }}</a>
+      <a class="site-header-nav-item {% if first_segment == 'contact' %}active{% endif %}" href="{{ site.url }}/#contact">{{ site.data.locale.nav.contact }}</a>
     </nav>
   </div>
 </header>
