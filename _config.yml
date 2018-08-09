@@ -28,7 +28,6 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
-  - Gruntfile.js
   - package.json
   - script
   - spec
