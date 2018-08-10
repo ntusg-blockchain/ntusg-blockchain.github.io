@@ -13,7 +13,7 @@
   <!-- Loading page specific css file -->
   {% if page.custom_css %}
     {% for css_file in page.custom_css %}
-      <script type="stylesheet" src="{{css_file}}"></script>
+      <link rel="stylesheet" href="{{site.baseurl}}/css/{{css_file}}" />
     {% endfor %}
   {% endif %}
 
