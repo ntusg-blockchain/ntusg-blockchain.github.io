@@ -1,11 +1,3 @@
-// run homejs-dev.sh to run browserify to enable require keyword.
-// more info: https://spapas.github.io/2015/05/27/using-browserify-watchify/
-const mailgun = require('mailgun.js');
-var mg = mailgun.client({
-  username: 'api',
-  key: '2adb321302cbd62e0d33b8c2edc20b10-7efe8d73-508f911e' // should use process.env.MAILGUN_API_KEY in production
-})
-
 <!-- Slick Carousel -->
 $(document).ready(function(){
   // slickjs for events Carousel.
@@ -48,20 +40,18 @@ $(document).ready(function(){
   });
 
   // contact us email submit button
-  $('#contact-email-button').on('click', function(event){
-    var name = document.getElementById('name').value;
-    var from = document.getElementById('email').value;
-    var subject = document.getElementById('subject').value;
-    var content = document.getElementById('email-content').value;
-
-    mg.messages.create('sandbox3a02021e7df84480992fcd9d55aa3e24.mailgun.org',{
-      from: name+ " < "+from+" >",
-      to: ["alex.xiong.tech@gmail.com"],
-      subject: subject,
-      text: content,
-      html: "<h1>" + subject+ "</h1><br><p>"+content+"</p>"
-    })
-    .then(msg => console.log(msg))
-    .catch(err => console.log(err));
+  //  https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
+  $('#contact-email-button').on('click', function(e){
+    var url = 'https://script.google.com/macros/s/AKfycbzRbLY4MudDfw6rQL6VxDjPYtZ1cJ3Rct8I5GRjj-L-RQ-kGjk/exec';
+    e.preventDefault();
+    $.ajax({
+       url: url,
+       method: "GET",
+       dataType: "json",
+       data: $('form#contact-form').serializeObject(),
+       success: function(){
+        $('form#contact-form').find("input[type=text], textarea").val("");
+       }
+     });
   });
 });
