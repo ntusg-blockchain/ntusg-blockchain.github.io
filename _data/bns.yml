@@ -41,3 +41,13 @@ contact:
   <br>
   <br>
   Please give us at most a week to get back to you, meanwhile if it is something urgent, please indicate so at the beginning of your message. :)'
+
+partners:
+  - NTU_CoE:
+    name: 'College of Engineering, NTU'
+    link: "http://www.coe.ntu.edu.sg/"
+    logo: 'ntusg-logo.png'
+  - B@B:
+    name: 'Blockchain at Berkeley'
+    link: 'http://blockchain.berkeley.edu/'
+    logo: 'b@b-logo.png'

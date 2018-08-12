@@ -1,8 +1,6 @@
 ---
 permalink: /
 layout: default
-custom_css:
-- 'home.scss'
 custom_js_lib:
 - '/lib/slick-1.8.1/slick/slick.min.js'
 custom_js:
@@ -187,6 +185,15 @@ custom_js:
 <section class="page-section page-section-spacious" id="partners">
   <div class="container-wide text-center">
     <h2>Partners & Sponsors</h2>
-    Upcoming, to be updated.
+    <div class="">
+      {% for partner in site.data.bns.partners %}
+      <a href='{{ partner.link }}' title='{{ partner.name }}' class='featured-partner'>
+        <div class='featured-partner-logo-wrapper vcenter'>
+          <img class='featured-partner-logo' src='{{ site.baseurl }}/images/home/{{partner.logo}}' alt='{{ partner.name }}'>
+        </div>
+        <div class='featured-partner-name'>{{ partner.name }}</div>
+      </a>
+      {% endfor %}
+    </div>
   </div>
 </section>

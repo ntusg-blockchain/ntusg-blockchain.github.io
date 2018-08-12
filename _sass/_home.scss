@@ -82,3 +82,49 @@ a.event-fb-link{
   text-decoration: none;
   color: #fff;
 }
+
+
+/* Featured partners with Icons */
+.featured-partner {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  padding: 0;
+  color: $main-color-subtle;
+  margin: 10px 20px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.featured-partner-logo-wrapper {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  transition: transform .32s;
+}
+
+.featured-partner:hover .featured-partner-logo-wrapper {
+  transform: scale(1.1);
+  transition-duration: .08s;
+}
+
+.featured-partner:active .featured-partner-logo-wrapper {
+  transform: scale(.92);
+  transition-duration: 0;
+}
+
+.featured-partner-logo {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.featured-partner-name {
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.3;
+  font-weight: 300;
+  white-space: hidden;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
