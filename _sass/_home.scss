@@ -37,6 +37,11 @@
   color: $main-link-gentle;
 }
 
+.department-wrapper {
+  height: 370px !important;
+  overflow: hidden;
+}
+
 // Events Slider -----------------------
 .event-img {
   display: block;
