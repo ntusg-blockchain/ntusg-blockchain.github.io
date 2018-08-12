@@ -54,4 +54,6 @@ $(document).ready(function(){
        }
      });
   });
+
+  // Change slack invite style
 });

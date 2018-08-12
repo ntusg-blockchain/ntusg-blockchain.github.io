@@ -81,6 +81,8 @@ $(document).ready(function(){
        }
      });
   });
+
+  // Change slack invite style
 });
 
 },{}]},{},[1,2]);
