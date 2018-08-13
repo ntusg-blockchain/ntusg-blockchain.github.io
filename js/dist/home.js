@@ -77,12 +77,12 @@ $(document).ready(function(){
        dataType: "json",
        data: $('form#contact-form').serializeObject(),
        success: function(){
+        // TODO: add more beautiful message/notification on successful form submission
+        alert('We have successfully received your request! Thank you for your email.');
         $('form#contact-form').find("input[type=text], textarea").val("");
        }
      });
   });
-
-  // Change slack invite style
 });
 
 },{}]},{},[1,2]);
