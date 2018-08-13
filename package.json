@@ -39,7 +39,7 @@
     "electron-userland-reports": "1.6.0",
     "fs": "0.0.1-security",
     "github": "^14.0.0",
-    "got": "^8.3.2",
+    "got": "^9.0.0",
     "gray-matter": "^4.0.1",
     "grunt": "^1.0.3",
     "grunt-cli": "^1.2.0",
@@ -57,7 +57,6 @@
   },
   "dependencies": {
     "bluebird": "^3.5.1",
-    "circular-std": "^1.0.0",
     "form-serializer": "^2.5.0",
     "mailgun.js": "^2.0.1",
     "primer": "^10.8.0"
