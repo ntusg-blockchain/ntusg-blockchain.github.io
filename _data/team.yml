@@ -14,18 +14,15 @@ members:
     - website:
         type: website
         url: 'https://alexxiong.xyz'
-- 1:
-  index: 1
-  name: 'Alex Luoyuan Xiong'
-  title: 'President & Co-founder'
-  bio: 'Alex loves cryptography. He was once an intern at <a href="https://consensys.net/diligence/">ConsenSys Diligence</a> auditing insecure smart contracts. Recently working on <a href="https://twitter.com/loi_luu/status/1005403081872293888?lang=en">Gormos</a> with Loi Luu, building scalable sharded Plasma for DEX.'
+- 2:
+  index: 2
+  name: 'Phang Jun Yu'
+  title: 'Co-founder'
+  bio: 'test'
   links:
     - twitter:
         type: twitter
         url: 'https://twitter.com/ALuoyuan'
     - github:
         type: github
-        url: 'https://github.com/AlexXiong97'
-    - website:
-        type: website
-        url: 'https://alexxiong.xyz'
+        url: 'https://github.com/phangjunyu'
