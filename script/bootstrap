@@ -1,0 +1,8 @@
+#!/bin/sh
+# usage: script/server
+#
+# Run the jekyll server
+
+gem install bundler
+bundle install
+npm install
