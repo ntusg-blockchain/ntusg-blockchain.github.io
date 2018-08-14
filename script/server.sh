@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 # usage: script/server
 #
 # Run the jekyll server
