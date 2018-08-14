@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "script/server.sh",
-    "windows-start": "bash script/windows-server.sh",
+    "windows-start": ".\\script\\windows-server.sh",
     "bootstrap": "script/bootstrap",
     "link-checker": "grunt linkChecker",
     "test": "mocha --reporter min && standard",
