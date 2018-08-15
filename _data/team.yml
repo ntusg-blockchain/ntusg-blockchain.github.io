@@ -18,11 +18,11 @@ members:
   index: 2
   name: 'Phang Jun Yu'
   title: 'Co-founder'
-  bio: 'test'
+  bio: 'Jun Yu is a Year 4 REP student at NTU interested in blockchain technology and development. Currently working on building a blockchain on top of Apache Cassandra for his Final Year Project. '
   links:
     - twitter:
         type: twitter
-        url: 'https://twitter.com/ALuoyuan'
+        url: 'https://twitter.com/PhangJunYu1'
     - github:
         type: github
         url: 'https://github.com/phangjunyu'

@@ -23,7 +23,7 @@
     <!-- Loading custom js file specific to each page -->
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
-        <script type="text/javascript" src="/js/dist/{{js_file}}"></script>
+        <script type="text/javascript" src="/js/{{js_file}}"></script>
       {% endfor %}
     {% endif %}
 
