@@ -26,6 +26,9 @@ layout: default
                 {% if link.website %}
                   <a href="{{link.website.url}}" target="_blank"><i class="fas fa-link"></i> </a>
                 {% endif %}
+                {% if link.linkedin %}
+                  <a href="{{link.linkedin.url}}" target="_blank"><i class="fab fa-linkedin"></i> </a>
+                {% endif %}
               {% endfor %}
             </div>
             <div class="team-member-bio-container pr-3">

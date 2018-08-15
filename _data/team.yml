@@ -17,7 +17,7 @@ members:
 - 2:
   index: 2
   name: 'Phang Jun Yu'
-  title: 'Co-founder'
+  title: 'Head of Education'
   bio: 'Jun Yu is a <a href="http://www.ntu.edu.sg/rep/Pages/Programme-Overview.aspx">Renaissance Engineering Programme</a> student at NTU interested in blockchain technology and development. Currently working on building a blockchain on top of Apache Cassandra for his Final Year Project. '
   links:
     - twitter:
@@ -29,8 +29,8 @@ members:
 - 3:
   index: 3
   name: 'Derek Chin'
-  title: 'Co-founder'
-  bio: 'Derek is a blockchain enthusiast. Previously a developer at <a href="https://blockchain.berkeley.edu/">Blockchain at Berkeley</a>, he constructed a solution for storing and verifying digital assets. Derek was an intern in <a href="https://usa.visa.com/"> Visa </a>, a leader in the financial services industry, for both the summer of 2017 and 2018 in the Singapore and Bay Area offices. Now working on a <a href="http://hackingdistributed.com/2017/08/28/submarine-sends/"> submarine send </a> implementation on Ethereum in collaboration with <a href="http://www.initc3.org/"> IC3 </a>'
+  title: 'Head of Technology'
+  bio: 'Derek was a developer at <a href="https://blockchain.berkeley.edu/">Blockchain at Berkeley</a>, he constructed a solution for storing and verifying digital assets. Once an intern in Visa for both the Singapore and Bay Area offices. Now working on a <a href="http://hackingdistributed.com/2017/08/28/submarine-sends/"> submarine send </a> implementation on Ethereum in collaboration with <a href="http://www.initc3.org/"> IC3 </a>'
   links:
     - twitter:
         type: twitter
@@ -38,6 +38,15 @@ members:
     - github:
         type: github
         url: 'https://github.com/fyrezx'
+- 5:
+  index: 5
+  name: 'Tian Yu (Clarice)'
+  title: 'Business Development Lead'
+  bio: 'Clarice is an earnest advocate of FinTech, especially the emerging Blockchain technology. Previously with <a href="https://www.seatowninternational.com/">SeaTown Holdings</a> where she worked on IPO investments in major Chinese FinTech companies.  Currently a summer analyst at <a href="https://www.blackrock.com/sg">BlackRock</a>, where she contributed to the firm’s proprietary FinTech platform. '
+  links:
+    - linkedin:
+        type: linkedin
+        url: 'https://www.linkedin.com/in/tianyuaiesec/'
 - 4:
   index: 4
   name: 'Zhou Zhiyao'
@@ -54,7 +63,7 @@ members:
   index: 6
   name: 'Wen Yonggang'
   title: 'Advisor'
-  bio: 'Dr. Wen is an associate professor of School of Computer Science and Engineering at NTU, while serving as the acting director of <a href="http://www.ntc.ntu.edu.sg/Pages/home.aspx">Nanyang Technopreneurship Centre</a>. Received his PhD in EECS from Massachusetts Institute of Technology (MIT), Dr.Wen is the master mind of most early blockchain initiatives, academic courses and research projects at NTU.'
+  bio: 'Dr. Wen is an associate professor of School of Computer Science and Engineering at NTU, while serving as the acting director of <a href="http://www.ntc.ntu.edu.sg/Pages/home.aspx">Nanyang Technopreneurship Centre</a>. Received his PhD in EECS from Massachusetts Institute of Technology (MIT), Dr. Wen is the master mind of most early blockchain initiatives, academic courses and research projects at NTU.'
   links:
     - website:
         type: website
