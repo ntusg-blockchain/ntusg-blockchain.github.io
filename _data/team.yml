@@ -18,7 +18,7 @@ members:
   index: 2
   name: 'Phang Jun Yu'
   title: 'Co-founder'
-  bio: 'Jun Yu is a Year 4 REP student at NTU interested in blockchain technology and development. Currently working on building a blockchain on top of Apache Cassandra for his Final Year Project. '
+  bio: 'Jun Yu is a <a href="http://www.ntu.edu.sg/rep/Pages/Programme-Overview.aspx">Renaissance Engineering Programme</a> student at NTU interested in blockchain technology and development. Currently working on building a blockchain on top of Apache Cassandra for his Final Year Project. '
   links:
     - twitter:
         type: twitter
@@ -38,3 +38,12 @@ members:
     - github:
         type: github
         url: 'https://github.com/zzy96'
+- 6:
+  index: 6
+  name: 'Wen Yonggang'
+  title: 'Advisor'
+  bio: 'Dr. Wen is an associate professor of School of Computer Science and Engineering at NTU, while serving as the acting director of <a href="http://www.ntc.ntu.edu.sg/Pages/home.aspx">Nanyang Technopreneurship Centre</a>. Received his PhD in EECS from Massachusetts Institute of Technology (MIT), Dr.Wen is the master mind of most early blockchain initiatives, academic courses and research projects at NTU.'
+  links:
+    - website:
+        type: website
+        url: 'http://www.ntu.edu.sg/home/ygwen/Index.html'

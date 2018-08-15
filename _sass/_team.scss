@@ -42,6 +42,22 @@ h2.team-intro-section-title {
   color: $main-link-color;
 }
 
+.team-member-bio-container {
+  overflow-y:hidden;
+  overflow-x:hidden;
+  max-height: 170px;
+}
+
+.team-member-bio-container:hover{
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.team-member-bio {
+  width:100%;
+  overflow:visible;
+}
+
 .team-member-title {
   position: absolute;
   width: 100%;
