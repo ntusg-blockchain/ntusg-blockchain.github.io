@@ -26,3 +26,15 @@ members:
     - github:
         type: github
         url: 'https://github.com/phangjunyu'
+- 3:
+  index: 3
+  name: 'Zhou Zhiyao'
+  title: 'Mentor & Co-founder'
+  bio: 'Zhiyao worked on <a href="http://www.mas.gov.sg/Singapore-Financial-Centre/Smart-Financial-Centre/Project-Ubin.aspx">Project Ubin</a> at J.P. Morgan <a href="https://www.jpmorgan.com/global/Quorum">Quorum team</a> in 2017. He designed and built a curation-market based, decentralized peer review platform for his undergraduate thesis project. Now working as a full-time developer at J.P. Morgan.'
+  links:
+    - twitter:
+        type: twitter
+        url: 'https://twitter.com/zhou_zhiyao'
+    - github:
+        type: github
+        url: 'https://github.com/zzy96'

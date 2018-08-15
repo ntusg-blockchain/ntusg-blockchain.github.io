@@ -1,3 +1,9 @@
+h2.team-intro-section-title {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: -1.7px;
+  line-height: 41px;
+}
 .team-member-card {
   width: 100%;
   padding: 40px 30px 20px;
@@ -47,6 +53,7 @@
   color: #242526;
   font-size: 12px;
   font-weight: 800;
+  font-family: $heading-font;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0 0 13px;
