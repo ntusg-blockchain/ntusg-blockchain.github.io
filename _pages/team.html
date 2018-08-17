@@ -31,8 +31,10 @@ layout: default
                 {% endif %}
               {% endfor %}
             </div>
-            <div class="team-member-bio-container pr-3">
-              <p class="team-member-bio">{{member.bio}}</p>
+            <div class="team-member-bio-container">
+              <div data-scrollbar class="team-member-bio">
+                <p>{{member.bio}}</p>
+              </div>
             </div>
             <div class="team-member-title pt-3">
               <h3 class="team-member-name">

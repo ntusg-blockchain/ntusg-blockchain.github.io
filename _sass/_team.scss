@@ -43,19 +43,21 @@ h2.team-intro-section-title {
 }
 
 .team-member-bio-container {
-  overflow-y:hidden;
-  overflow-x:hidden;
-  max-height: 170px;
+  overflow: hidden;
 }
 
-.team-member-bio-container:hover{
-  overflow-y:auto;
-  overflow-x:hidden;
-}
+// .team-member-bio-container:hover{
+//   overflow-y:auto;
+// }
 
 .team-member-bio {
   width:100%;
-  overflow:visible;
+  height: 170px;
+  max-height: 170px;
+  // overflow-y: scroll;
+  overflow: auto;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
 }
 
 .team-member-title {

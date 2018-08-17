@@ -65,7 +65,9 @@ custom_js:
         <div class="department-wrapper">
           <i class="fas fa-4x fa-graduation-cap circle-icon"></i>
           <h3 class="gentle-link-color">Education</h3>
-          {{site.data.bns.education_intro}}
+          <div class="department-intro">
+            {{site.data.bns.education_intro}}
+          </div>
         </div>
         <a href="{{site.baseurl}}/learn/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
       </div>
@@ -73,7 +75,9 @@ custom_js:
         <div class="department-wrapper">
           <i class="fas fa-4x fa-laptop-code circle-icon"></i>
           <h3 class="gentle-link-color">R&D</h3>
-          {{site.data.bns.research_dev_intro}}
+          <div data-scrollbar class="department-intro">
+            {{site.data.bns.research_dev_intro}}
+          </div>
         </div>
         <a href="{{site.baseurl}}/build/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
       </div>
@@ -81,7 +85,9 @@ custom_js:
         <div class="department-wrapper">
           <i class="fas fa-4x fa-flask circle-icon"></i>
           <h3 class="gentle-link-color">Consulting</h3>
-          {{site.data.bns.consulting_intro}}
+          <div class="department-intro">
+            {{site.data.bns.consulting_intro}}
+          </div>
         </div>
         <a href="{{site.baseurl}}/consulting/" class="btn-fancy btn-fancy-blue-reverse no-underline my-5">Learn More</a>
       </div>
@@ -179,7 +185,7 @@ custom_js:
 
 <section class="page-section page-section-spacious" id="partners">
   <div class="container-wide text-center">
-    <h2>Partners & Sponsors</h2>
+    <h2>Partners</h2>
     <div class="">
       {% for partner in site.data.bns.partners %}
       <a href='{{ partner.link }}' title='{{ partner.name }}' class='featured-partner'>

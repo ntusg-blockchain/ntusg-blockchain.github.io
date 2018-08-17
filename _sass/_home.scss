@@ -133,3 +133,16 @@ a.event-fb-link{
   overflow: visible;
   text-overflow: ellipsis;
 }
+
+// Department
+.department-wrapper {
+  overflow: hidden;
+}
+
+.department-intro {
+  width: 100%;
+  max-height: 170px;
+  overflow-y: scroll;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
