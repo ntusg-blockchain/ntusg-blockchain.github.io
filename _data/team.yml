@@ -40,9 +40,9 @@ members:
         url: 'https://github.com/fyrezx'
 - 5:
   index: 5
-  name: 'Tian Yu (Clarice)'
-  title: 'Business Development Lead'
-  bio: 'Clarice is an earnest advocate of FinTech, especially the emerging Blockchain technology. Previously with <a href="https://www.seatowninternational.com/">SeaTown Holdings</a> where she worked on IPO investments in major Chinese FinTech companies.  Currently a summer analyst at <a href="https://www.blackrock.com/sg">BlackRock</a>, where she contributed to the firm’s proprietary FinTech platform. '
+  name: 'Clarice Tian Yu'
+  title: 'Head of Business Development'
+  bio: 'Clarice is an earnest advocate of FinTech, especially the emerging Blockchain technology. Previously with <a href="https://www.seatowninternational.com/">SeaTown Holdings</a> where she worked on IPO investments in major Chinese FinTech companies.  Currently a summer analyst at <a href="https://www.blackrock.com/sg">BlackRock</a>, where she had the exposure to the firm’s proprietary FinTech platform. '
   links:
     - linkedin:
         type: linkedin

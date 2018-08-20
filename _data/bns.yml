@@ -32,6 +32,12 @@ events:
     description: 'Last session in "Demystifying Blockchain" workshop series, walked through coding paradigm of product incoporating smart contract systems and live coded hello-world Solidity contract with brief intro to Truffle, Ganache etc.'
     url: 'https://bit.ly/blockchain-ntusg-103'
     fb_url: ''
+  - 4:
+    index: 4
+    name: 'Welcome Tea Info Session'
+    date: 'August 23, 2018 ( upcoming )'
+    description: 'Come to our welcome tea info session to learn about our mission, program and projects in our pipeline and our upcoming member recruitment for Year 18/19.'
+    fb_url: 'https://www.facebook.com/events/275609229934574/'
 
 contact:
   notice: 'We welcome any questions regarding our projects, membership recruitment, our free blockchain materials, our workshop information and anything but scam, spam and ICO hard-sell.

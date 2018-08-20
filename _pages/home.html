@@ -104,18 +104,17 @@ custom_js:
       {% for event in site.data.bns.events %}
         <!-- Having py-5 to display box shawdow -->
         <div class="py-5">
-          <a href="{{event.fb_url}}" class="event-fb-link">
+          <a href="{{event.fb_url}}" class="event-fb-link" target="_blank">
             <div class="event-container">
               <img class="event-img" src="{{site.baseurl}}/images/home/event-{{event.index}}.jpg" alt="event-photo">
               <div class="event-overlay pt-3 pl-4 pr-1">
                 <h4>{{event.name}}</h4>
                 <p>{{event.date}}</p>
                 <p>{{event.description}}</p>
-                <a href="{{event.url}}" class="btn btn-transparent mt-3" target="_blank">Learn more</a>
+                <a href="{{event.fb_url}}" class="btn btn-transparent mt-3" target="_blank">Learn more</a>
               </div>
             </div>
           </a>
-
         </div>
       {% endfor %}
     </div>

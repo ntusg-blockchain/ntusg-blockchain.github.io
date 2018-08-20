@@ -8,7 +8,9 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
+    centerMode: true,
+    initialSlide: 3,
     responsive: [
       {
         breakpoint: 900,
