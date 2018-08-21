@@ -22,3 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
   fixPlatformLabels()
   fixSyntaxHighlighting()
 })
+
+// $(window).resize(function() {
+//     $('.below-header').css("margin-top", $(".site-header").height());
+// }).resize();
