@@ -18,7 +18,7 @@ members:
   index: 2
   name: 'Phang Jun Yu'
   title: 'Head of Education'
-  bio: 'Jun Yu is a <a href="http://www.ntu.edu.sg/rep/Pages/Programme-Overview.aspx">Renaissance Engineering Programme</a> student at NTU interested in blockchain technology and development. Currently working on building a blockchain on top of Apache Cassandra for his Final Year Project. '
+  bio: 'Jun Yu is a <a href="http://www.ntu.edu.sg/rep/Pages/Programme-Overview.aspx">Renaissance Engineering Programme</a> student at NTU interested in blockchain technology and development. Previously worked on the <a href="http://www.learnplasma.org/index.html"/> LearnPlasma </a>community project at IC3. Currently working on building a blockchain on top of Apache Cassandra for his Final Year Project. '
   links:
     - twitter:
         type: twitter
