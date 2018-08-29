@@ -68,3 +68,15 @@ members:
     - website:
         type: website
         url: 'http://www.ntu.edu.sg/home/ygwen/Index.html'
+- 7:
+  index: 7
+  name: 'Sourav Gupta'
+  title: 'Advisor'
+  bio: 'Dr. Sourav is affiliated with the School of Computer Science and Engineering at NTU as a lecturer. He is positioned precariously at the confluence of computer science, math and engineering with extensive background on number theory (M.Math), cryptology (Ph.D) and cyber security.'
+  links:
+    - website:
+        type: website
+        url: 'http://www.souravsengupta.com/'
+    - linkedin:
+        type: linkedin
+        url: 'https://www.linkedin.com/in/sg-sourav/'
